@@ -41,5 +41,14 @@ namespace ServiceMtk_P1_20180140066
         }
     }
 
+    [DataContract]
+    class Mathfault
+    {
+        [DataMember]
+        public string Kode { get; set; }
+        [DataMember]
+        public string Pesan { get; set; }
+    }
+
 
 }
